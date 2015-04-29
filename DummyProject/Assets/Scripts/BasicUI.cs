@@ -18,5 +18,7 @@ public class BasicUI : MonoBehaviour {
 		GUI.skin.label.alignment = TextAnchor.MiddleCenter;
 		GUI.skin.label.fontSize = 30;
 		GUI.Label (new Rect (0, 0, Screen.width, Screen.height), "Test Successful");
+
+		GUI.Label (new Rect (0, 100, Screen.width, Screen.height), "Test 1 Sachet Successful");
 	}
 }
