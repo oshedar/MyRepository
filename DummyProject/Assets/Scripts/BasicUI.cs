@@ -21,5 +21,6 @@ public class BasicUI : MonoBehaviour {
 		GUI.Label (new Rect (0, -100, Screen.width, Screen.height), "Test 1 Snehal Successful");
 		GUI.Label (new Rect (0, 200, Screen.width, Screen.height), "Test 2 Sachet Successful");
 
+		GUI.Label (new Rect (0, 100, Screen.width, Screen.height), "Test 1 Sachet Successful");
 	}
 }
